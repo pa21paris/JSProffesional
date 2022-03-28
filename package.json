@@ -2,9 +2,10 @@
   "name": "jsproffesional",
   "version": "1.0.0",
   "description": "Js practice",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
   },
   "keywords": [
     "JS",
@@ -12,5 +13,16 @@
     "Study"
   ],
   "author": "Pablo Paris",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pa21paris/JSProffesional.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pa21paris/JSProffesional/issues"
+  },
+  "homepage": "https://github.com/pa21paris/JSProffesional#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
 }
